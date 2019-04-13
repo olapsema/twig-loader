@@ -97,7 +97,7 @@ module.exports = config;
 ```
 
 ```twig
-{# /public/templates/test.html.twig #}
+{# File: /public/templates/test.html.twig #}
 {% include "@templates/test1/example.html.twig" with {
     param1: "param1",
     param2: "param2"
@@ -106,7 +106,7 @@ module.exports = config;
 ```
 
 ```twig
-{# /public/templates/test1/example.html.twig #}
+{# File: /public/templates/test1/example.html.twig #}
 <div>
   <div>
     {{ param1 }}
