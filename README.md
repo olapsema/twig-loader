@@ -67,9 +67,8 @@ const path = require('path');
 var templatesPath = path.join(__dirname, '/public/templates');
 
 var config = {
-  entry: { },
-  devtool: 'source-map',
-  output: { },
+  //...
+  
   module: {
     rules: [
       {
@@ -89,8 +88,7 @@ var config = {
     alias: {
       '@templates': path.resolve(templatesPath)
     },
-    modules: [ ],
-    extensions: ['.js']
+   //...
   }
 };
 
