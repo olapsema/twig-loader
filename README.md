@@ -3,7 +3,7 @@ Webpack loader for compiling Twig.js templates. This loader will allow you to re
 
 ## Installation
 
-`npm install twig-symfony-loader`
+`npm install twig-symfony-loader --save-dev`
 
 ## Usage
 
