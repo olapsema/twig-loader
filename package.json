@@ -1,6 +1,6 @@
 {
-  "name": "twig-loader",
-  "version": "0.4.1",
+  "name": "twig-symfony-loader",
+  "version": "0.1.1",
   "description": "Webpack loader for compiling twig.js templates",
   "main": "index.js",
   "scripts": {
