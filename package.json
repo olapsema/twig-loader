@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zimmo-be/twig-loader.git"
+    "url": "git+https://github.com/olapsema/twig-loader.git"
   },
-  "author": "Mathieu Maes @ Zimmo.be",
+  "author": "Mathieu Maes @ Zimmo.be, edited by olapsema",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zimmo-be/twig-loader/issues"
+    "url": "https://github.com/olapsema/twig-loader/issues"
   },
-  "homepage": "https://github.com/zimmo-be/twig-loader#readme",
+  "homepage": "https://github.com/olapsema/twig-loader#readme",
   "peerDependencies": {
     "twig": "~1.10.5"
   },
