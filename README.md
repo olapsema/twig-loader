@@ -123,6 +123,6 @@ module.exports = config;
 0.1.0 / 2019-04-13
 ==================
 
-* Add support for namespaces
+* Added support for namespaces
 
 forked from https://github.com/zimmo-be/twig-loader
