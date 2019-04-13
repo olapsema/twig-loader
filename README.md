@@ -35,7 +35,9 @@ module.exports = {
 ### Options
 
 - `twigOptions`: optional; a map of options to be passed through to Twig.
+
   Example: `{ autoescape: true }`
+  
   Example: `{ namespaces: { namespaces: { templates: path.resolve(templatesPath) } } }`
 
 ## Loading templates
@@ -94,6 +96,28 @@ var config = {
 
 module.exports = config;
 
+```
+
+```twig
+{# test.html.twig #}
+{% include "@templates/example.html.twig" with {
+    param1: "param1",
+    param2: "param2"
+  }
+%}
+```
+
+```twig
+{# example.html.twig #}
+<div>
+  <div>
+    {{ param1 }}
+    {{ param2 }}
+    
+    {% include "@templates/buttons.html.twig" with {reset_text: 'Reset', submit_text: 'Submit'} %}
+    {% include "@templates/loader.html.twig" %}
+  </div>
+</div>
 ```
 
 0.1.0 / 2019-04-13
